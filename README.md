@@ -16,5 +16,5 @@ $ export MODEL_WEIGHTS_PATH=/path/to/weights.h5
 # Start
 
 ```bash
-$ gunicorn servant:create_app --bind 0.0.0.0:8080 --worker-class aiohttp.GunicornUVLoopWebWorker --reload --workers 1
+$ gunicorn servant:create_app --bind 0.0.0.0:8080 --worker-class aiohttp.GunicornUVLoopWebWorker --workers 1
 ```
