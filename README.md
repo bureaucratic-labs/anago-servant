@@ -9,8 +9,8 @@ HTTP API for NER models (actually, HTTP interface for [anago](https://github.com
 
 ```bash
 $ export MODEL_PARAMS_PATH=/path/to/params.h5
-$ MODEL_PREPROCESSOR_PATH=/path/to/preprocessor.pickle
-$ MODEL_WEIGHTS_PATH=/path/to/weights.h5
+$ export MODEL_PREPROCESSOR_PATH=/path/to/preprocessor.pickle
+$ export MODEL_WEIGHTS_PATH=/path/to/weights.h5
 ```
 
 # Start
