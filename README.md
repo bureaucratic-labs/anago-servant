@@ -11,6 +11,7 @@ HTTP API for NER models (actually, HTTP interface for [anago](https://github.com
 $ export MODEL_PARAMS_PATH=/path/to/params.json
 $ export MODEL_PREPROCESSOR_PATH=/path/to/preprocessor.pickle
 $ export MODEL_WEIGHTS_PATH=/path/to/weights.h5
+$ export SENTRY_DNS=https://...  # optional
 ```
 
 # Start
