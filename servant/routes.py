@@ -23,5 +23,8 @@ async def index(request):
     """Endpoint, that does entity recognition."""
     text = request['data']['text']
     model = request.app['model']
-    result = model.analyze(text, tokenizer=tokenize)
+    if text:
+        result = model.analyze(text, tokenizer=tokenize)
+    else:
+        result = {}
     return web.json_response(result)
