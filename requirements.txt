@@ -1,5 +1,5 @@
 absl-py==0.6.1
-aiohttp==3.4.4
+aiohttp==3.7.4
 aiohttp-apispec==0.7.6
 anago==1.0.8
 apispec==0.39.0
